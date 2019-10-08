@@ -55,6 +55,7 @@ hold(randomarray, "Create a rank 2 array full of random numbers", True)
 array3x4 = np.array([[1, 2, 3, 4],
                      [5, 6, 7, 8],
                      [9, 10, 11, 12]])
+hold(array3x4.shape, "Shape of our 3x4 array", False)
 hold(array3x4, "Create a rank 2 array with a shape of 3 x 4", True)
 
 # NOTE: Pulls first two rows, then columns 1 and 2
