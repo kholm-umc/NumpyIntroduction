@@ -169,7 +169,7 @@ printAndHold(shortList1.T, "Transpose our array", True)
 printAndHold(shortList3, "Reminder of short list #3", False)
 printAndHold(shortList3.T, "Transposing a rank 1 array does nothing", True)
 
-linSpaceArray = np.linspace(100, 1000, num=5, dtype=int)
+linSpaceArray = np.linspace(0, 1000, num=5, dtype=int)
 printAndHold(linSpaceArray, "Created by .linspace()", True)
 
 
