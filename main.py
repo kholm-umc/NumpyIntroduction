@@ -13,7 +13,7 @@ def printAndHold(info, label ="", ask = False):
     print(info)
 
     if (ask):
-        #input(f"Continue: ")
+        input(f"Continue: ")
         print("==================================================")
 
     print()
